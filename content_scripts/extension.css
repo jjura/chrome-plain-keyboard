@@ -1,0 +1,47 @@
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none !important;
+}
+
+:root {
+    --font-size-1: 9pt !important;
+    --font-size-2: 9pt !important;
+    --font-size-3: 9pt !important;
+    --font-size-4: 9pt !important;
+    --font-size-5: 9pt !important;
+    --font-size-6: 9pt !important;
+    --font-size-7: 9pt !important;
+    --font-size-8: 9pt !important;
+}
+
+* {
+    font-family: "Terminus (TTF)" !important;
+    font-size: 9pt !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    letter-spacing: initial !important;
+}
+
+input#panel {
+    appearance: none !important;
+    outline: none !important;
+    position: fixed !important;
+}
+
+input#panel {
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 999999 !important;
+}
+
+input#panel {
+    background-color: #000000 !important;
+    border: none !important;
+    border-bottom: 1px solid #6688bb !important;
+    padding: 9px !important;
+}
+
+input#panel {
+    color: #99bbee !important;
+}

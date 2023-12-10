@@ -1,0 +1,34 @@
+{
+    "name": "Plain - Keyboard",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs"
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "resources": [
+                "resources/index.html"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background/service_worker.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "js": [
+                "content_scripts/extension.js"
+            ],
+            "css": [
+                "content_scripts/extension.css"
+            ]
+        }
+    ]
+}
